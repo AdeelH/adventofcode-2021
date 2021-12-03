@@ -15,7 +15,7 @@ def move_to_vector(dir: str, dist: int) -> tuple:
         raise ValueError(dir)
 
 
-def solve(params: dict) -> int:
+def solve(params: dict) -> tuple:
     dirs = params['dirs']
     dists = params['dists']
     init_x, init_y = params['init_x'], params['init_y']
